@@ -1,6 +1,8 @@
+
 * {
     font-family: Gilroy, sans-serif;
 }
+
 
 nav {
     background-color: white;
@@ -51,8 +53,10 @@ nav {
     align-items: center;
 }
 #login {
+    display: flex;
     align-items: center;
     text-align: center;
+    width: 77%;
 }
 
 .headsec {
@@ -99,6 +103,8 @@ nav {
 #letsgo {
     align-items: center;
     text-align: center;
+    display: flex;
+    height: 1%;
 }
 
 .sec1conatiner{
@@ -278,4 +284,352 @@ details > summary:first-of-type{
     width: 40px;
     left: 230px;
     top: 172px;
+}
+
+.part{
+    margin: auto;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    line-height: 1.1;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 32px;
+}
+
+p{
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.img{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+    box-shadow: 0px 20px 23px 10px rgb(90 90 92 / 20%)
+}
+
+#btn{
+    padding:15px 30px 15px 30px;
+    border-radius: 100px 100px 100px 0px;
+    display: inline-block;
+    background-color: #7e57ff;
+    border: 2px solid #7e57ff;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+
+#btn:hover{
+    background-color: #9679f7;
+    border: 2px solid #9679f7;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+a{
+    font-weight: 600;
+    color: #7e57ff;
+}
+
+.card{
+    display: flex;
+   padding-top: 3rem;
+}
+.container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#img1{
+    width: 60%;
+}
+
+
+
+.main{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 12px;
+}
+
+.card{
+    display: flex;
+    /* text-align: center; */
+}
+
+.card-col h2{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    margin: auto;
+}
+.card-col p{
+    line-height: 30px;
+    font-size: larger;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 12px;
+
+}
+.card-col img{
+    width: 20rem;
+}
+
+.card-col:nth-child(2) img {
+    width: 30rem;
+}
+
+.uper h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-stretch: condensed;
+
+}
+
+.sum{
+    display: flex;
+    text-align: center;
+    margin:80px;
+    font-family: 'Varela Round', sans-serif;
+    width: 90%
+}
+
+.all{
+    display: flex;
+    height: auto;
+    /* border: 2px solid black; */
+    justify-content: center;
+}
+
+
+.vista{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    
+}
+
+summary{
+    margin-bottom: 8px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+}
+
+.det{
+    background-color: rgb(236, 236, 246);
+    width: 30vw;
+    height: auto;
+    margin: 5px;
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 8px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.image{
+    margin: 20px 50px;
+}
+
+.image img{
+    border-top-right-radius: 250px;
+}
+
+.footer{
+    width: 120%;
+    height: 15em;
+    border-radius: 1em;
+    margin: 1em 2em 1em 2em;
+    /* margin: 5vh 1vw 1vh 1vw; */
+    text-align: center;
+    padding: 45px;
+    background-color: rgb(44, 44, 75);
+    background-image: url("https://assets-global.website-files.com/621d1905031cff21e84611fa/62216900bda7945d9e6ec1bd_Footer%20Shape%20Right.svg"), url("https://assets-global.website-files.com/621d1905031cff21e84611fa/62216900bda794e9bc6ec1be_Footer%20Shape%20Left.svg");
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1{
+    margin: 40px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 5vh;
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    width: 7em;
+    height: 2.5em;
+    padding: 0.4em;
+    background-color: white;
+    color: black;
+    border-radius: 2em 2em 2em 0em;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.plus{
+    width: 1.5em;
+    height: 1.5em;
+    padding:0.5em;
+}
+
+details summary::-webkit-details-marker{
+    display: none;
+}
+details > summary:first-of-type {
+    list-style-type:none;
+}
+details.det summary{
+    padding-right: 2.2rem;
+    padding-left: 1rem;
+}
+
+details.det summary::after {
+    content: "+";
+    color: rgb(85, 82, 82);
+    font-size: 2rem;
+    line-height: 1rem;
+    transform: rotate(-45deg);
+    top: 1.2rem;
+    left: unset;
+    right: 0.6rem;
+}
+details[open].det > summary::after{
+    transform: rotate(90deg);
+    color: #F00 !important;
+    transition: color ease 2s, transform ease 1s;
+}
+
+.footer2{
+    display: flex;
+    width:100%;
+    height: 25vh;
+    
+}
+
+.footer2 .fpic{
+    box-sizing: border-box;
+    width: 23vw;
+    height: inherit;
+    padding: 10vh 4vw;
+}
+
+.footer2 .linkset1 {
+   display:flex;
+   flex-direction: column;
+   height: 25vh;
+   width: 23vw;
+   padding: 3vh 0vw 0vh 0vw;
+   font-family: 'Varela Round', sans-serif;
+   font-weight: 600;
+   font-stretch: condensed;
+}
+
+.link{
+    height: 5vh;
+    width: auto;
+    margin: 0vw;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+
+.footer2 .linkset2{
+   display: flex;
+   flex-direction: column;
+   height: 25vh;
+   width: 23vw;
+   padding: 3vh 0vw 0vh 0vw;
+   font-family: 'Varela Round', sans-serif;
+   font-weight: 600;
+   font-stretch: condensed;
+}
+
+.login {
+
+    display: flex;
+    margin: 2em 2em 2em 0em;
+    align-items: center;
+    width: 7em;
+    height: 2.5em;
+    padding: 0.4em;
+    background-color: rgb(60, 0, 255);
+    color: black;
+    border-radius: 2em 2em 2em 0em;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+
+}
+
+.login a{
+    color:white;
+}
+
+.follow{
+    display: flex;
+}
+
+.facebook{ margin: 2em 2em 2em 0em;}
+.twitter{ margin: 2em 2em 2em 0em;}
+.linkedin{ margin: 2em 2em 2em 0em;}
+.contact{
+    margin: 2vw 2vw 2vw 0vw;
+    font-family: 'Varela Round', sans-serif;
+    color: blue;
+}
+.contact:hover{
+    color: red
+}
+
+.greenbox{
+    position: relative;
+    background-color: rgb(43, 209, 96);
+    height: 5em;
+    width: 5em;
+}
+.onfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+ overflow-x: hidden;   
+}
+.link a:hover{
+    color: blueviolet;
+}
+
+.contact:hover{
+    columns: blueviolet;
 }
